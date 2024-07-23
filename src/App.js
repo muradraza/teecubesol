@@ -6,6 +6,7 @@ import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import Testimonials from "./Pages/Testimonials";
+import Showcase from "./Pages/Showcase";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/testimonials" element={<Testimonials />} />
-        {/*   <Route path="/contact" element={<Contact />} />
         <Route path="/showcase" element={<Showcase />} />
+        {/*   <Route path="/contact" element={<Contact />} />
         <Route path="/shopifydevelopment" element={<Shopifydevelopment />} /> */}
       </Routes>
       <Footer />

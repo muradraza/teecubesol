@@ -11,13 +11,21 @@
     font-size: 28px;
   }
 }
+.show_subtitle {
+  color: #1e68f8;
+  font-weight: 500;
+  font-size: 12px;
+}
+.show_title {
+  font-size: 26px;
+}
 
 .project {
   display: flex;
   width: 90%;
   margin: auto;
   align-items: center;
-  padding: 80px 0;
+  padding-top: 40px;
   .proimg {
     width: 40%;
   }

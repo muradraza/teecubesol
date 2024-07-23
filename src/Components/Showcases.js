@@ -6,45 +6,34 @@ function Showcases() {
     <>
       <div className="project">
         <div className="proimg">
-          <img src="/bannner.jpg" alt="..." />
+          <img src="/show1.png" alt="..." />
         </div>
         <div className="protxt">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting.
+          <p className="show_subtitle">
+            ELEVATING THE TRAVEL AND HOSPITALITY EXPERIENCE
+          </p>
+          <p className="show_title">Masterpiece Premium Wines</p>
+          <p className="show_des">
+            Just as their wines are among the world’s finest, their brand
+            identity needed to be equally exceptional. That’s precisely what we
+            delivered—a sophisticated brand identity for a truly classy brand.
           </p>
         </div>
       </div>
 
       <div className="project2">
         <div className="proimg">
-          <img src="/bannner.jpg" alt="..." />
+          <img src="/show2.png" alt="..." />
         </div>
         <div className="protxt">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting.
-          </p>
-        </div>
-      </div>
-
-      <div className="project">
-        <div className="proimg">
-          <img src="/bannner.jpg" alt="..." />
-        </div>
-        <div className="protxt">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting.
+          <p className="show_subtitle">WEB UI/UX</p>
+          <p className="show_title">Learn Guitar</p>
+          <p className="show_des">
+            For people who are huge music enthusiasts, learn guitar.com offers
+            exclusive guitar facilities. When a brand identity didn’t already
+            exist, the product’s producers approached us. Our brand identity
+            development specialists created a brand with a fresh, lovely
+            identity.
           </p>
         </div>
       </div>
