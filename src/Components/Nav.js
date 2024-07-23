@@ -46,13 +46,13 @@ function Nav() {
                 </Link>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link class="dropdown-item" to={"/shopifydevelopment"}>
+                    <Link class="dropdown-item" to={"/shopify"}>
                       Shopify Development
                     </Link>
                   </li>
                   <li>
-                    <Link class="dropdown-item" href="#">
-                      Another action
+                    <Link class="dropdown-item" to={"/seo"}>
+                      Seo
                     </Link>
                   </li>
                   <li>

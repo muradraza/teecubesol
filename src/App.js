@@ -8,6 +8,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import Testimonials from "./Pages/Testimonials";
 import Showcase from "./Pages/Showcase";
 import Contact from "./Pages/Contact";
+import Shopify from "./Pages/Shopify";
+import Seo from "./Pages/Seo";
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/showcase" element={<Showcase />} />
         <Route path="/contact" element={<Contact />} />
-        {/*  <Route path="/shopifydevelopment" element={<Shopifydevelopment />} /> */}
+        <Route path="/shopify" element={<Shopify />} />
+        <Route path="/seo" element={<Seo />} />
       </Routes>
       <Footer />
     </>

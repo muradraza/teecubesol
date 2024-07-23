@@ -43,11 +43,26 @@ function footer() {
       <div className="footlink">
         <p className="footh"> Learn More</p>
         <ul>
-          <li>About Us</li>
-          <li>Our Story</li>
-          <li>Projects</li>
-          <li>Terms of Use</li>
-          <li>Privacy Policy</li>
+          <li>
+            <Link class="nav-link" to="/about">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link class="nav-link" to="/showcase">
+              Showcase
+            </Link>
+          </li>
+          <li>
+            <Link class="nav-link" to="/testimonials">
+              Testimonials
+            </Link>
+          </li>
+          <li>
+            <Link class="nav-link" to="/contact">
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
 
