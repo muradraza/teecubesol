@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+  .about {
+    display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    .about1,
+    .about2 {
+      width: 90%;
+      padding: 2%;
+    }
+  }
+}
