@@ -1,0 +1,17 @@
+.seoplan {
+  width: 90%;
+  margin: auto;
+  padding: 0 150px;
+}
+
+.sepic img:hover {
+  box-shadow: 2px 2px 15px rgb(168, 166, 166);
+}
+
+@media screen and (max-width: 480px) {
+  .seoplan {
+    width: 90%;
+    margin: auto;
+    padding: 0 10px;
+  }
+}

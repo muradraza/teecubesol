@@ -55,14 +55,6 @@ function Nav() {
                       Seo
                     </Link>
                   </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <Link class="dropdown-item" href="#">
-                      Something else here
-                    </Link>
-                  </li>
                 </ul>
               </li>
               <li class="nav-item">
