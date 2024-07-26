@@ -2,10 +2,21 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import Pricing from "../Components/Pricing";
 import "../css/shopi.css";
+import { Helmet } from "react-helmet";
 
 function Shopify() {
   return (
     <>
+      <Helmet>
+        <title>
+          Unlock Excellence with our Best Shopify Development Service
+        </title>
+        <meta
+          name="description"
+          content="Discover unmatched Shopify development expertise near me. Upgrade your online store with our top-rated services for seamless, customized, and growth-driven solutions."
+        />
+      </Helmet>
+
       <Pagebanner name={"Shopify Development"} />
 
       <div className="aproch" style={{ display: "flex", alignItems: "center" }}>

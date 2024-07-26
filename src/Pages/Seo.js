@@ -2,10 +2,19 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import "../css/seo.css";
 import Counter from "../Components/Counter";
+import { Helmet } from "react-helmet";
 
 function Seo() {
   return (
     <>
+      <Helmet>
+        <title>Unmatched SEO Services for Sustainable Online Success</title>
+        <meta
+          name="description"
+          content="Seeking enduring SEO solutions? TeeCube delivers the best SEO services in the US, propelling your website to new heights. Ready to secure long-term online excellence?"
+        />
+      </Helmet>
+
       <Pagebanner name={"Search Engine Optimization"} />
 
       <div className="aproch">

@@ -4,10 +4,19 @@ import Servicesgrid from "../Components/Servicesgrid";
 import About from "../Components/About";
 import Approch from "../Components/Approch";
 import Showcases from "../Components/Showcases";
+import { Helmet } from "react-helmet";
 
 function Index() {
   return (
     <>
+      <Helmet>
+        <title>Digital Design Agency</title>
+        <meta
+          name="description"
+          content="TeeCube Solutions Ltd is a dynamic digital design agency committed to revolutionizing brand strategies and enhancing digital presence."
+        />
+      </Helmet>
+
       <Hero />
       <Servicesgrid />
       <About />
