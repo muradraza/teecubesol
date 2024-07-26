@@ -15,9 +15,15 @@
   color: #1e68f8;
   font-weight: 500;
   font-size: 12px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .show_title {
   font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .project {
@@ -38,6 +44,17 @@
     margin-left: -90px;
     border-radius: 12px;
     box-shadow: 0 0 15px whitesmoke;
+    .show_subtitle,
+    .show_des {
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .show_title {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
   }
 }
 .project2 {
@@ -58,6 +75,17 @@
     z-index: 2;
     border-radius: 12px;
     box-shadow: 0 0 15px whitesmoke;
+    .show_subtitle,
+    .show_des {
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .show_title {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
   }
 }
 .proimg img {
