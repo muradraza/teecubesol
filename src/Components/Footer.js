@@ -5,7 +5,7 @@ function footer() {
   return (
     <div class="bd-highlight bg-dark text-white foot">
       <div className="p-2 bd-highlight footlogo">
-        <Link class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
         </Link>
       </div>

@@ -6,7 +6,7 @@ function Nav() {
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <Link class="navbar-brand" href="#">
+          <Link class="navbar-brand" to="/">
             <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
           </Link>
 

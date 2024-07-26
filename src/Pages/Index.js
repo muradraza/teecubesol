@@ -15,6 +15,22 @@ function Index() {
           name="description"
           content="TeeCube Solutions Ltd is a dynamic digital design agency committed to revolutionizing brand strategies and enhancing digital presence."
         />
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "TeeCube Solutions ltd",
+            alternateName: "TeeCube",
+            url: "https://teecubesolutionsltd.com/",
+            logo: "https://teecubesolutionsltd.com/",
+            sameAs: [
+              "https://www.facebook.com/teecubesolutionsltd",
+              "https://www.instagram.com/teecubes/",
+              "https://www.linkedin.com/company/teecubesolutions",
+            ],
+          })}
+        </script>
       </Helmet>
 
       <Hero />
