@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Approch from "../Components/Approch";
 import Showcases from "../Components/Showcases";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 function Index() {
   return (
@@ -59,16 +60,19 @@ function Index() {
             padding: "10px 45px",
           }}
         >
-          <a
-            href={"tel:03322082393"}
+          <Link
+            to={"tel:03322082393"}
             style={{
               color: "#fff",
               listStyle: "none",
               textDecoration: "none",
+              fontfamily: "Montserrat Alternates",
+              fontweight: "500",
+              fontstyle: "normal",
             }}
           >
             Call Now
-          </a>
+          </Link>
         </button>
       </div>
 

@@ -11,6 +11,7 @@ import Contact from "./Pages/Contact";
 import Shopify from "./Pages/Shopify";
 import Seo from "./Pages/Seo";
 import Websitedevelopment from "./Pages/Websitedevelopment";
+import Smm from "./Pages/Smm";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/shopify" element={<Shopify />} />
         <Route path="/seo" element={<Seo />} />
         <Route path="/websitedevelopment" element={<Websitedevelopment />} />
+        <Route path="/smm" element={<Smm />} />
       </Routes>
       <Footer />
     </>

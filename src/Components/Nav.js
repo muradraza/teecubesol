@@ -60,6 +60,11 @@ function Nav() {
                       Website Development
                     </Link>
                   </li>
+                  <li>
+                    <Link class="dropdown-item" to={"/smm"}>
+                      Social Media Marketing
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">

@@ -1,5 +1,221 @@
 @import "https://unpkg.com/open-props";
 
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.montserrat-alternates-thin {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.montserrat-alternates-extralight {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.montserrat-alternates-light {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-alternates-medium {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-alternates-bold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-alternates-extrabold {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-alternates-black {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.montserrat-alternates-thin-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.montserrat-alternates-extralight-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.montserrat-alternates-light-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.montserrat-alternates-regular-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-alternates-medium-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.montserrat-alternates-semibold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.montserrat-alternates-bold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.montserrat-alternates-extrabold-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.montserrat-alternates-black-italic {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +244,8 @@
   flex-direction: column;
 
   .herotitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
     padding-left: 4vw;
     padding-right: 60vw;
     font-size: 4em;
@@ -39,10 +257,27 @@
     padding-left: 4vw;
     padding-right: 50vw;
     overflow: hidden;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
-  .herobtn {
+  .hbtn {
     margin-left: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
+}
+.hbtn button {
+  margin-right: 15px;
+}
+.hbtn .hlink {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 25px;
 }
 
 /* Page Title Banner */
@@ -60,7 +295,9 @@
   font-size: 5em;
   display: flex;
   align-items: center;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /* Page Title Banner End */
@@ -75,6 +312,11 @@
 }
 .ser {
   margin: 50px;
+  p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 }
 .services {
   width: 24%;
@@ -135,8 +377,14 @@
     font-size: 32px;
     font-weight: 700;
     color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
   p {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 18px;
     font-weight: 200;
     color: #fff;
@@ -175,6 +423,16 @@
     border-radius: 12px;
   }
 }
+.aproch p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.aproch h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 .cta {
   background-image: url("../public/cta.png");
@@ -188,53 +446,22 @@
 .ctap {
   font-size: 16px;
   color: #fff;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .ctah {
   font-size: 38px;
   text-align: center;
   padding: 0px 180px;
   color: #fff;
-  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   text-transform: capitalize;
 }
 
 /* End Approch Sec */
-
-/* carousel */
-#quote-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  text-align: center;
-}
-/* indicator position */
-#quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: -10px;
-  margin-right: -19px;
-  color: #60dfe5;
-}
-/* indicator color */
-#quote-carousel .carousel-indicators li {
-  background: #333333;
-  height: 4px;
-  width: 50px;
-}
-/* active indicator */
-#quote-carousel .carousel-indicators .active {
-  background: #60dfe5;
-  height: 4x;
-  width: 50px;
-  margin-bottom: 1px;
-}
-/* typography */
-h1 {
-  text-align: center;
-  margin-bottom: -20px !important;
-}
-p {
-  font-style: italic;
-}
 
 /* About Page */
 
