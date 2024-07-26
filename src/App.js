@@ -10,6 +10,7 @@ import Showcase from "./Pages/Showcase";
 import Contact from "./Pages/Contact";
 import Shopify from "./Pages/Shopify";
 import Seo from "./Pages/Seo";
+import Websitedevelopment from "./Pages/Websitedevelopment";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/shopify" element={<Shopify />} />
         <Route path="/seo" element={<Seo />} />
+        <Route path="/websitedevelopment" element={<Websitedevelopment />} />
       </Routes>
       <Footer />
     </>

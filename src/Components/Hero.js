@@ -16,6 +16,7 @@ function hero() {
         <div>
           <button type="button" class="herobtn btn bg-primary rounded-pill">
             <Link
+              to="/contact"
               style={{
                 textDecoration: "none",
                 color: "#fff",
@@ -27,6 +28,7 @@ function hero() {
           </button>
           <button type="button" class="herobtn btn bg-primary rounded-pill">
             <Link
+              to="/about"
               style={{
                 textDecoration: "none",
                 color: "#fff",

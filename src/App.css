@@ -29,6 +29,7 @@
 
   .herotitle {
     padding-left: 4vw;
+    padding-right: 60vw;
     font-size: 4em;
     color: #fff;
   }
@@ -247,6 +248,9 @@ p {
     padding: 2%;
   }
 }
+.progresss p {
+  font-size: 20px;
+}
 
 /* About Page */
 
@@ -291,6 +295,7 @@ p {
 
     .herotitle {
       padding-top: 2vw;
+      padding-right: 2vw;
       font-size: 20em;
       color: #fff;
       font-size: 2em;
@@ -392,8 +397,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: center;
     .aprochimg {
       width: 95%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .approchdetails {
       width: 95%;

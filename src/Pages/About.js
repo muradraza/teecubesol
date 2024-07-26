@@ -22,25 +22,8 @@ function About() {
           </p>
         </div>
         <div className="about2">
-          <div
-            class="progress"
-            style={{
-              height: "20px",
-              borderRadius: "25px",
-            }}
-          >
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style={{ width: "55%" }}
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              Strategy
-            </div>
-          </div>
-          <div style={{ margin: "10px 0" }}>
+          <div className="progresss">
+            <p>Website Development</p>
             <div
               class="progress"
               style={{
@@ -51,31 +34,55 @@ function About() {
               <div
                 class="progress-bar"
                 role="progressbar"
-                style={{ width: "55%" }}
-                aria-valuenow="25"
+                style={{ width: "99%" }}
+                aria-valuenow="90"
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                Strategy
+                Website Development
               </div>
             </div>
           </div>
-          <div
-            class="progress"
-            style={{
-              height: "20px",
-              borderRadius: "25px",
-            }}
-          >
+          <div className="progresss">
+            <p>Digital Marketing</p>
             <div
-              class="progress-bar"
-              role="progressbar"
-              style={{ width: "55%" }}
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
+              class="progress"
+              style={{
+                height: "20px",
+                borderRadius: "25px",
+              }}
             >
-              Strategy
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style={{ width: "95%" }}
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                Digital Marketing
+              </div>
+            </div>
+          </div>
+          <div className="progresss">
+            <p>Shopify Dropshipping Solutions</p>
+            <div
+              class="progress"
+              style={{
+                height: "20px",
+                borderRadius: "25px",
+              }}
+            >
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style={{ width: "98%" }}
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                Shopify Dropshipping Solutions
+              </div>
             </div>
           </div>
         </div>
