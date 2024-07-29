@@ -1,10 +1,20 @@
 import React from "react";
 import "../css/testimonials.css";
 import Pagebanner from "../Components/Pagebanner";
+import { Helmet } from "react-helmet";
 
 function Testimonials() {
   return (
     <>
+      <Helmet>
+        <title>
+          TeeCube Solutions Ltd | Client Testimonials & Success Stories
+        </title>
+        <meta
+          name="description"
+          content="Read real testimonials from satisfied clients of Tee Cube Solutions Ltd. Discover how our innovative tech solutions have transformed businesses and achieved remarkable results."
+        />
+      </Helmet>
       <Pagebanner name={"Testimonials"} />
 
       <div className="ttestimonial">
