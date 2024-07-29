@@ -1,54 +1,47 @@
 import React from "react";
-import Pagebanner from "../Components/Pagebanner";
-import "../css/seo.css";
-import Counter from "../Components/Counter";
 import { Helmet } from "react-helmet";
+import Pagebanner from "../Components/Pagebanner";
+import Counter from "../Components/Counter";
 
-function Seo() {
+function Mobileapp() {
   return (
     <>
       <Helmet>
-        <title>Unmatched SEO Services for Sustainable Online Success</title>
+        <title>
+          Best Mobile App Development Company in USA - TeeCube Solutions
+        </title>
         <meta
           name="description"
-          content="Seeking enduring SEO solutions? TeeCube delivers the best SEO services in the US, propelling your website to new heights. Ready to secure long-term online excellence?"
+          content="Looking for top-notch website management? TeeCube is the top website management company in USA, ensuring your online presence is always optimized and running smoothly."
         />
       </Helmet>
-
-      <Pagebanner name={"Search Engine Optimization"} />
+      <Pagebanner name={"Mobile App Development"} />
 
       <div className="aproch">
         <div className="approchdetails">
-          <h3>
-            SEO services Florida to help Rank your brand higher on Google Search
-          </h3>
+          <h3>Leading Mobile Application Design and Development Company</h3>
           <p>
-            Continually getting lost amid online competition? Or maybe your
-            searching for the best SEO services near me? It seems like you need
-            a little help from the best SEO company in Florida, California, that
-            offers SEO services globally. T Cube help you to climb up the SERPs
-            and be on the top-tier of your customer’s preferences. Looking for
-            affordable search engine optimization services is hard, and it is
-            even harder to find the best SEO company or local SEO services.
-            Lucky for you, our top highly skilled and professional SEO experts
-            are here to help you provide the best SEO services online. We are an
-            experienced group of SEO professionals focused on providing
-            affordable search engine optimization services for businesses of all
-            shapes and sizes. We are the best SEO agency out there working with
-            the sole motivation to help your business shine on the search
-            rankings..
+            T Cube provides full-service for mobile app development companies
+            based in Florida, California and other states of the US. Our team of
+            skilled professionals will help your business in every phase of the
+            mobile software development cycle from product planning to app
+            development, design and deployment. We build native iOS and Android
+            apps, custom mobile apps, web applications, databases,
+            cross-platform app development and hybrid mobile application from
+            scratch. We love working with organizations of all size, from
+            startups to a corporate level. Our primary service features involve.
             <ul>
-              <li>1) On-page SEO Services</li>
-              <li>2) Off-page SEO Services</li>
-              <li>3) Strategic SEO planning</li>
-              <li>4) SEO website audit</li>
-              <li>5) Keyword Research and Analysis</li>
-              <li>6) Ongoing Audience Research and Analysis</li>
+              <li>1) iOS App Design and Development</li>
+              <li>2) Android App Design and Development</li>
+              <li>3) Windows App Design and Development</li>
+              <li>4) Hybrid App Design and Development</li>
+              <li>5) Application Maintenance Services</li>
+              <li>6) Startup Application service</li>
             </ul>
           </p>
         </div>
         <div className="aprochimg">
-          <img src="/seo.png" alt="..." />
+          <img src="/mob.png" alt="..." />
         </div>
       </div>
 
@@ -59,14 +52,14 @@ function Seo() {
         }}
       >
         <p className="text-center p-0">
-          We’ve Got a Proven Formula for Success to Guarantee Results with SEO
-          Services to Our Clients
+          We’ve Got a Proven Formula for Success to Guarantee Results for Our
+          Clients
         </p>
         <h3 className="text-center">
-          The work isn’t done till your marketing objectives aren’t met with our
-          Search Engine Optimization services. We follow a precise and proven
-          formula for success that makes us the best SEO agency out there in the
-          market.
+          If it isn’t a 100% then it isn’t enough for us. To ensure each
+          corporate 3D explainer video is getting nothing but the best, we make
+          sure we follow a set of rules that keep us on track in terms of
+          results.
         </h3>
       </div>
 
@@ -88,11 +81,11 @@ function Seo() {
               style={{ width: "80px", margin: "auto" }}
             />
             <div class="card-body text-center">
-              <h5 class="card-title">SEO Services Plan</h5>
+              <h5 class="card-title">Idea</h5>
               <p class="card-text">
-                Planning out the perfect SEO strategies is the first step to
-                many for your brand improvement. Creating a proper marketing
-                plan is where we start from.
+                Your ideas are the most important aspect of your application. It
+                defines how different your application is going to be, which is
+                why it is the initial step to our process.
               </p>
             </div>
           </div>
@@ -111,12 +104,11 @@ function Seo() {
               style={{ width: "80px", margin: "auto" }}
             />
             <div class="card-body text-center">
-              <h5 class="card-title">Managed SEO services</h5>
+              <h5 class="card-title">Develop</h5>
               <p class="card-text">
-                Our experts always monitor SEO link building services with
-                unique and engaging content measuring and analyzing statistics
-                is what helps our SEO experts understand the nature of your
-                brand.
+                Designing and developing your app idea is the next most
+                important step that we focus on to create an app that stands out
+                from all of its competitors and makes a mark on the audience.
               </p>
             </div>
           </div>
@@ -135,10 +127,11 @@ function Seo() {
               style={{ width: "80px", margin: "auto" }}
             />
             <div class="card-body text-center">
-              <h5 class="card-title">SEO Results</h5>
+              <h5 class="card-title">Deliver</h5>
               <p class="card-text">
-                Discovering new trends, new audience networks and new potential
-                customers is an effective cycle that always keeps moving.
+                Delivering perfection is what our team aims for, mainly why we
+                focus on quality assurance and bug fixes before the final
+                delivery to make sure you get what you imagine.
               </p>
             </div>
           </div>
@@ -151,13 +144,13 @@ function Seo() {
       >
         <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 sepic">
           <img
-            src="/seopic/11.png"
+            src="/appportfolio.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
           />
 
           <img
-            src="/seopic/12.png"
+            src="/app02.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
           />
@@ -165,13 +158,13 @@ function Seo() {
 
         <div class="col-lg-4 mb-4 mb-lg-0 sepic">
           <img
-            src="/seopic/14.png"
+            src="/app03.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Mountains in the Clouds"
           />
 
           <img
-            src="/seopic/15.png"
+            src="/app04.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
           />
@@ -179,13 +172,13 @@ function Seo() {
 
         <div class="col-lg-4 mb-4 mb-lg-0 sepic">
           <img
-            src="/seopic/15.png"
+            src="/app05.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Boat on Calm Water"
           />
 
           <img
-            src="/seopic/13.png"
+            src="/app08.png"
             class="w-100 shadow-1-strong rounded mb-4"
             alt="Wintry Mountain Landscape"
           />
@@ -197,4 +190,4 @@ function Seo() {
   );
 }
 
-export default Seo;
+export default Mobileapp;

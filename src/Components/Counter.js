@@ -49,7 +49,7 @@ function Counter() {
                 start={0}
                 end={7518}
                 duration={2}
-                separator=" "
+                // separator=" "
                 // decimals={4}
                 delay={2}
                 decimal=","
@@ -78,7 +78,7 @@ function Counter() {
                 start={0}
                 end={5472}
                 duration={2}
-                separator=" "
+                // separator=" "
                 // decimals={4}
                 delay={2}
                 decimal=","
@@ -106,7 +106,7 @@ function Counter() {
                 start={0}
                 end={2184}
                 duration={2}
-                separator=" "
+                // separator=" "
                 // decimals={4}
                 delay={2}
                 decimal=","

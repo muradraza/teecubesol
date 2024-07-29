@@ -337,23 +337,19 @@
 .web:hover {
   background-image: url("../public/web.jpg");
   background-size: cover;
-  transition: ease-in-out;
+  /* transition: ease-in-out; */
 }
 .market:hover {
   background-image: url("../public/marketing.png");
-
   background-size: cover;
-  transition: ease-in-out;
 }
 .it:hover {
   background-image: url("../public/IT.png");
   background-size: cover;
-  transition: ease-in-out;
 }
 .shop:hover {
   background-image: url("../public/shops.jpg");
   background-size: cover;
-  transition: ease-in-out;
 }
 
 .abt {
@@ -465,7 +461,7 @@
 
 /* About Page */
 
-.about {
+/* .about {
   display: flex;
   padding-top: 100px;
 
@@ -474,7 +470,7 @@
     width: 48%;
     padding: 2%;
   }
-}
+} */
 .progresss p {
   font-size: 20px;
 }

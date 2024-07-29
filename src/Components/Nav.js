@@ -61,6 +61,11 @@ function Nav() {
                     </Link>
                   </li>
                   <li>
+                    <Link class="dropdown-item" to={"/mobile-app"}>
+                      Mobile App Development
+                    </Link>
+                  </li>
+                  <li>
                     <Link class="dropdown-item" to={"/smm"}>
                       Social Media Marketing
                     </Link>
