@@ -249,13 +249,18 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  .herop {
+    padding-left: 4vw;
+    color: #fff;
+    margin-bottom: -2px;
+  }
 
   .herotitle {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     padding-left: 4vw;
     padding-right: 60vw;
-    font-size: 4em;
+    font-size: 2.5em;
     color: #fff;
   }
   .herotxt {
@@ -531,13 +536,13 @@
       font-size: 2em;
     }
     .herotxt {
-      font-size: 1em;
+      font-size: 0.8em;
       color: #fff;
       padding-left: 4vw;
       padding-right: 5vw;
       overflow: hidden;
     }
-    .herobtn {
+    .hbtn {
       display: none;
     }
   }

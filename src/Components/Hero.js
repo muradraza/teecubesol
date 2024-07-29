@@ -1,13 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../js/heero.js";
+import "../css/hero.css";
 
 function hero() {
   return (
     <>
       <div class="hero ">
+        <p className="herop">Welcome to</p>
         <h3 className="herotitle">
-          Empowering <span style={{ color: "#0D6EFD" }}>Digital</span> Solutions
+          Digital <span style={{ color: "#0D6EFD" }}>Design</span> Agency
         </h3>
+        <h4 className="herotitle">
+          <Link
+            to=""
+            class="typewrite"
+            data-period="2000"
+            data-type='[ "For Website Development", "For Digital Marketing", "Shopify Dropshipping Solutions" ]'
+          >
+            <span class="wrap"></span>
+          </Link>
+        </h4>
+
         <p className="herotxt">
           At TeeCube Solutions Ltd, we provide innovative software designed to
           drive your business forward. Our team of experts crafts customized

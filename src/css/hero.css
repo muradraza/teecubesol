@@ -1,0 +1,24 @@
+.typewrite {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 34px;
+}
+
+.typewrite:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .typewrite {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 22px;
+    margin-top: -1500px;
+  }
+
+  .typewrite:hover {
+    color: #fff;
+  }
+}
