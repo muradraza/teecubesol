@@ -346,20 +346,20 @@
     color: #fff;
   }
 }
-.web:hover {
+.web {
   background-image: url("../public/web.jpg");
   background-size: cover;
   /* transition: ease-in-out; */
 }
-.market:hover {
+.market {
   background-image: url("../public/marketing.png");
   background-size: cover;
 }
-.it:hover {
+.it {
   background-image: url("../public/IT.png");
   background-size: cover;
 }
-.shop:hover {
+.shop {
   background-image: url("../public/shops.jpg");
   background-size: cover;
 }

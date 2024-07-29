@@ -19,7 +19,7 @@ function Servicesgrid() {
           <h5>Digital Marketing</h5>
         </div>
         <div className="services it" data-aos="fade-right">
-          <h5>IT Solution</h5>
+          <h5>SEO</h5>
         </div>
         <div className="services text-warp shop" data-aos="fade-right">
           <h5>Shopify Dropshipping Solutions</h5>
