@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "../css/aproch.css";
+import "../js/animation.js";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Approch() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div
@@ -14,7 +21,7 @@ function Approch() {
         </h3>
       </div>
       <div className="aproch">
-        <div className="aprochimg">
+        <div className="aprochimg " data-aos="fade-left">
           <img src="/aprox.jpg" alt="..." />
         </div>
         <div className="approchdetails">

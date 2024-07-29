@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/showcase.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Showcases() {
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  }, []);
   return (
     <>
       <div className="project">
-        <div className="proimg">
+        <div className="proimg" data-aos="fade-right">
           <img src="/show1.png" alt="..." />
         </div>
-        <div className="protxt">
+        <div className="protxt" data-aos="fade-left">
           <p className="show_subtitle">
             ELEVATING THE TRAVEL AND HOSPITALITY EXPERIENCE
           </p>
@@ -22,10 +27,10 @@ function Showcases() {
       </div>
 
       <div className="project2">
-        <div className="proimg">
+        <div className="proimg" data-aos="fade-right">
           <img src="/show2.png" alt="..." />
         </div>
-        <div className="protxt">
+        <div className="protxt" data-aos="fade-left">
           <p className="show_subtitle">WEB UI/UX</p>
           <p className="show_title">Learn Guitar</p>
           <p className="show_des">
