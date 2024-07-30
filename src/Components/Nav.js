@@ -31,13 +31,13 @@ function Nav() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/about">
+                  <Link class="nav-link active" to="/about">
                     About
                   </Link>
                 </li>
                 <li class="nav-item dropdown">
                   <Link
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle active"
                     href="#"
                     id="navbarDropdown"
                     role="button"
@@ -48,45 +48,48 @@ function Nav() {
                   </Link>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li>
-                      <Link class="dropdown-item" to={"/shopify"}>
+                      <Link class="dropdown-item p-3" to={"/shopify"}>
                         Shopify Development
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" to={"/seo"}>
+                      <Link class="dropdown-item p-3" to={"/seo"}>
                         Seo
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" to={"/websitedevelopment"}>
+                      <Link
+                        class="dropdown-item p-3"
+                        to={"/websitedevelopment"}
+                      >
                         Website Development
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" to={"/mobile-app"}>
+                      <Link class="dropdown-item p-3" to={"/mobile-app"}>
                         Mobile App Development
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" to={"/smm"}>
+                      <Link class="dropdown-item p-3" to={"/smm"}>
                         Social Media Marketing
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/showcase">
+                  <Link class="nav-link active" to="/showcase">
                     Showcase
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/testimonials">
+                  <Link class="nav-link active" to="/testimonials">
                     Testimonials
                   </Link>
                 </li>
 
-                <li class="nav-item">
-                  <Link class="nav-link" to="/contact">
+                <li class="nav-item ">
+                  <Link class="nav-link active" to="/contact">
                     Contact
                   </Link>
                 </li>

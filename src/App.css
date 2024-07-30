@@ -240,6 +240,12 @@
   background-color: #212529;
 }
 
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #fff !important;
+  background-color: #1d6dfa !important;
+}
+
 .hero {
   background-image: url("../public/bannner.jpg");
   width: 100%;
@@ -343,12 +349,15 @@
   h5 {
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
+    text-shadow: 5px 5px #212529;
   }
 }
+
 .web {
   background-image: url("../public/web.jpg");
   background-size: cover;
+
   /* transition: ease-in-out; */
 }
 .market {
