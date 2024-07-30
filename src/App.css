@@ -238,6 +238,10 @@
   width: 100%;
   margin: auto;
   background-color: #212529;
+  /* position: fixed;
+  top: 0;
+  width: 10;
+  z-index: 99; */
 }
 
 .dropdown-item:hover,
@@ -257,6 +261,7 @@
   flex-direction: column;
   .herop {
     padding-left: 4vw;
+
     color: #fff;
     margin-bottom: -2px;
   }
@@ -410,7 +415,7 @@
 
 .abtimg img {
   width: 70%;
-  height: 700px;
+  height: 600px;
   border-radius: 15px;
 }
 
@@ -504,6 +509,15 @@
   justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
+}
+.foo {
+  width: 25%;
+  padding-left: 15px;
+}
+.foosec {
+  width: 92%;
+  margin: auto;
+  display: flex;
 }
 .footlink ul {
   list-style: none;

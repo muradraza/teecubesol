@@ -1,6 +1,12 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 function Contactsec() {
+  const [state, handleSubmit] = useForm("mkgwrjnl");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
+
   return (
     <>
       <section class="bg-light py-3 py-md-5">
@@ -106,7 +112,7 @@ function Contactsec() {
             </div>
             <div class="col-12 col-lg-6">
               <div class="bg-white border rounded shadow-sm overflow-hidden">
-                <form action="https://formspree.io/f/xyzgkgve" method="POST">
+                <form onSubmit={handleSubmit}>
                   <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                     <div class="col-12">
                       <label for="fullname" class="form-label">
@@ -144,6 +150,13 @@ function Contactsec() {
                           name="email"
                           required
                         />
+                        <li>
+                          <ValidationError
+                            prefix="Email"
+                            field="email"
+                            errors={state.errors}
+                          />
+                        </li>
                       </div>
                     </div>
                     <div class="col-12 col-md-6">
