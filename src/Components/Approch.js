@@ -15,7 +15,7 @@ function Approch() {
           marginTop: "30px",
         }}
       >
-        <p className="text-center p-0">OUR BUSINESS APPROACH</p>
+        <p className="text-center p-0 subtitle">OUR BUSINESS APPROACH</p>
         <h3 className="text-center">
           Relax and entrust your business needs to us. We've got your back.
         </h3>

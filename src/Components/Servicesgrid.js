@@ -8,7 +8,7 @@ function Servicesgrid() {
   }, []);
   return (
     <div className="ser">
-      <p className="text-center p-0 fs-5">Our Services</p>
+      <p className="text-center p-0 subtitle">Our Services</p>
       <h3 className="text-center fs-1">What we do</h3>
 
       <div className="sergrd">

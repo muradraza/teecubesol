@@ -77,7 +77,7 @@ function Index() {
       </div>
 
       <div className="showcase">
-        <p>OUR PROJECTS</p>
+        <p className="subtitle">OUR PROJECTS</p>
         <h3>
           Check out some of our awesome projects with creative ideas and great
           design.
