@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import "../css/about.css";
+import CountUp from "react-countup";
 
 function About() {
   return (
@@ -16,7 +17,33 @@ function About() {
       </Helmet>
       <div className="abt">
         <div className="abtimg">
-          <img src="/about.jpg" alt="12" />
+          <img src="/ab.jpg" alt="12" />
+          {/* <div className="years">
+            <CountUp
+              start={0}
+              end={8}
+              duration={4}
+              // separator=" "
+              // decimals={4}
+              delay={2}
+              decimal=","
+              //prefix="EUR "
+              suffix=" +"
+              //onEnd={() => console.log("Ended! 👏")}
+              //onStart={() => console.log("Started! 💨")}
+            >
+              {({ countUpRef, start }) => (
+                <div>
+                  <span
+                    style={{
+                      fontSize: "50px",
+                    }}
+                    ref={countUpRef}
+                  />
+                </div>
+              )}
+            </CountUp>
+          </div> */}
         </div>
         <div className="abttxt">
           <h5>About Us</h5>

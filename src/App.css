@@ -381,16 +381,32 @@
 }
 
 .abt {
-  padding: 5vh 5vw;
+  padding: 15vh 5vw;
   display: flex;
-  background-color: #0d6efd;
+  background: rgb(6, 59, 116);
+  background: linear-gradient(
+    14deg,
+    rgba(6, 59, 116, 1) 27%,
+    rgba(6, 56, 114, 1) 77%
+  );
+
+  /* background-color: #0d6efd; */
 }
 .abtimg {
-  margin-right: 2vw;
   width: 55%;
   display: flex;
   justify-content: center;
   border-radius: 15px;
+  position: relative;
+  .years {
+    position: absolute;
+    background-color: #ffffff72;
+    padding: 10px 50px;
+    border-radius: 20px;
+    bottom: -50px;
+    right: -5px;
+    box-shadow: 5px 5px 10px #fff;
+  }
 }
 .abttxt {
   width: 45%;
@@ -416,7 +432,7 @@
 }
 
 .abtimg img {
-  width: 70%;
+  width: 80%;
   height: 600px;
   border-radius: 15px;
 }
