@@ -14,6 +14,7 @@ function Mobileapp() {
           name="description"
           content="Looking for top-notch website management? TeeCube is the top website management company in USA, ensuring your online presence is always optimized and running smoothly."
         />
+        <link rel="canonical" href="/mobile-app" />
       </Helmet>
       <Pagebanner name={"Mobile App Development"} />
 

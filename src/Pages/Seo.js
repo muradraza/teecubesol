@@ -13,6 +13,7 @@ function Seo() {
           name="description"
           content="Seeking enduring SEO solutions? TeeCube delivers the best SEO services in the US, propelling your website to new heights. Ready to secure long-term online excellence?"
         />
+        <link rel="canonical" href="/seo" />
       </Helmet>
 
       <Pagebanner name={"Search Engine Optimization"} />

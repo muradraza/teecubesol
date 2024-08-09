@@ -6,15 +6,6 @@ import CountUp from "react-countup";
 function About() {
   return (
     <>
-      <Helmet>
-        <title>
-          Tee Cube Solutions Ltd | Innovators in Technology Solutions
-        </title>
-        <meta
-          name="description"
-          content="Discover the story behind Tee Cube Solutions Ltd. Learn about our mission, values, and how we transform ideas into innovative tech solutions."
-        />
-      </Helmet>
       <div className="abt">
         <div className="abtimg">
           <img src="/ab.jpg" alt="12" />

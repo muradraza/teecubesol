@@ -1,6 +1,8 @@
 .about {
   display: flex;
   padding-top: 100px;
+  width: 90%;
+  margin: auto;
 
   .about1,
   .about2 {

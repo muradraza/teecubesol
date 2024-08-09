@@ -12,6 +12,7 @@ function Showcase() {
           name="description"
           content="Transform your vision into reality with TeeCube Solutions Ltd. Explore our showcase to see cutting-edge projects and happy clients."
         />
+        <link rel="canonical" href="/showcase" />
       </Helmet>
       <Pagebanner name={"Show Case"} />
       <Showcases />

@@ -54,7 +54,9 @@ function Howitwork() {
                 <h4>Collect Ideas</h4>
               </div>
               <div>
-                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+                <p>
+                  Gather innovative concepts to drive your business forward.
+                </p>
               </div>
             </div>
           </div>
@@ -92,7 +94,10 @@ function Howitwork() {
                 <h4>Data Analysis</h4>
               </div>
               <div>
-                <p>Vivamus sagittis lacus augue laoreet vel.</p>
+                <p>
+                  Transform data into actionable insights for strategic
+                  decisions.
+                </p>
               </div>
             </div>
           </div>
@@ -130,7 +135,7 @@ function Howitwork() {
                 <h4>Magic Touch</h4>
               </div>
               <div>
-                <p>Cras mattis consectetur purus sit amet.</p>
+                <p>Add a unique flair that sets your brand apart.</p>
               </div>
             </div>
           </div>
@@ -155,7 +160,7 @@ function Howitwork() {
                   aria-expanded="true"
                   aria-controls="collapseOne"
                 >
-                  Accordion Item #1
+                  Professional Design
                 </button>
               </h2>
               <div
@@ -165,15 +170,10 @@ function Howitwork() {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Experience visually stunning and highly functional designs
+                  tailored to your brand identity. Our professional design
+                  services ensure your business stands out in the competitive
+                  market.
                 </div>
               </div>
             </div>
@@ -187,7 +187,7 @@ function Howitwork() {
                   aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
-                  Accordion Item #2
+                  Top-Notch Support
                 </button>
               </h2>
               <div
@@ -197,15 +197,9 @@ function Howitwork() {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Benefit from our dedicated support team, always ready to
+                  assist you with any queries or issues. We provide reliable and
+                  timely solutions to keep your operations running smoothly.
                 </div>
               </div>
             </div>
@@ -219,7 +213,7 @@ function Howitwork() {
                   aria-expanded="false"
                   aria-controls="collapseThree"
                 >
-                  Accordion Item #3
+                  Header and Slider Options
                 </button>
               </h2>
               <div
@@ -229,15 +223,10 @@ function Howitwork() {
                 data-bs-parent="#accordionExample"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  Enhance your website with customizable header and slider
+                  options that captivate your audience. Our dynamic features
+                  allow you to showcase your content in an engaging and visually
+                  appealing manner.
                 </div>
               </div>
             </div>

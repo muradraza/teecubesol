@@ -15,6 +15,7 @@ function Shopify() {
           name="description"
           content="Discover unmatched Shopify development expertise near me. Upgrade your online store with our top-rated services for seamless, customized, and growth-driven solutions."
         />
+        <link rel="canonical" href="/shopify" />
       </Helmet>
 
       <Pagebanner name={"Shopify Development"} />

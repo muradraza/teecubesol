@@ -7,31 +7,16 @@ import Showcases from "../Components/Showcases";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 
-function Index() {
+function Home() {
   return (
     <>
       <Helmet>
-        <title>Digital Design Agency</title>
+        <title>Digital Design Agency | TeeCube Solutions ltd</title>
         <meta
           name="description"
           content="TeeCube Solutions Ltd is a dynamic digital design agency committed to revolutionizing brand strategies and enhancing digital presence."
         />
-
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            name: "TeeCube Solutions ltd",
-            alternateName: "TeeCube",
-            url: "https://teecubesolutionsltd.com/",
-            logo: "https://teecubesolutionsltd.com/",
-            sameAs: [
-              "https://www.facebook.com/teecubesolutionsltd",
-              "https://www.instagram.com/teecubes/",
-              "https://www.linkedin.com/company/teecubesolutions",
-            ],
-          })}
-        </script>
+        <link rel="canonical" href="/" />
       </Helmet>
 
       <Hero />
@@ -88,4 +73,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default Home;

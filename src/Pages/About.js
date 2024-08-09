@@ -2,10 +2,21 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import "../css/about.css";
 import Howitwork from "../Components/Howitwork";
+import { Helmet } from "react-helmet";
 
 function About() {
   return (
     <>
+      <Helmet>
+        <title>
+          About Us - Tee Cube Solutions Ltd | Innovators in Technology Solutions
+        </title>
+        <meta
+          name="description"
+          content="Discover the story behind Tee Cube Solutions Ltd. Learn about our mission, values, and how we transform ideas into innovative tech solutions."
+        />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       <Pagebanner name={"About Us"} />
 
       <div className="about">
@@ -15,10 +26,8 @@ function About() {
             your business needs and projects.
           </h2>
           <p>
-            nteger posuere erat a ante venenatis dapibus posuere velit aliquet.
-            Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur duis
-            mollis commodo.
+            Trust TeeCube Solutions Ltd. to provide specialized expertise and
+            support for every aspect of your business journey.
           </p>
         </div>
         <div className="about2">
@@ -90,7 +99,7 @@ function About() {
 
       <div
         class="row row-cols-1 row-cols-md-4 g-4"
-        style={{ widows: "90%", margin: "auto" }}
+        style={{ width: "90%", margin: "auto" }}
       >
         <div class="col">
           <div
@@ -108,9 +117,8 @@ function About() {
             <div class="card-body text-center">
               <h5 class="card-title">Marketing</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                At TeeCube Solutions Ltd., our marketing services elevate your
+                brand and connect you with your target audience.
               </p>
             </div>
           </div>
@@ -131,9 +139,8 @@ function About() {
             <div class="card-body text-center">
               <h5 class="card-title">Strategy</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Strategic planning is central to our approach at TeeCube
+                Solutions Ltd.
               </p>
             </div>
           </div>
@@ -154,8 +161,7 @@ function About() {
             <div class="card-body text-center">
               <h5 class="card-title">Development</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                Innovation and technology drive our development services.
               </p>
             </div>
           </div>
@@ -181,9 +187,8 @@ function About() {
             <div class="card-body text-center">
               <h5 class="card-title">Data Analysis</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                At TeeCube Solutions Ltd., our data analysis services empower
+                informed decision-making.
               </p>
             </div>
           </div>

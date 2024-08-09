@@ -12,6 +12,7 @@ function Smm() {
           name="description"
           content="Why settle for less? TeeCube offers top-tier social media marketing services in the US, ensuring sustained online success. Ready to amplify your digital presence?"
         />
+        <link rel="canonical" href="/smm" />
       </Helmet>
 
       <Pagebanner name={"Social Media Marketing"} />
