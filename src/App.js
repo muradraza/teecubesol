@@ -13,6 +13,9 @@ import Seo from "./Pages/Seo";
 import Websitedevelopment from "./Pages/Websitedevelopment";
 import Smm from "./Pages/Smm";
 import Mobileapp from "./Pages/Mobileapp";
+import Mobileappdevelopment from "./Pages/Mobileappdevelopment";
+import Post1 from "./Pages/Blogs/Post1";
+import Blog from "./Pages/Blog";
 
 function App() {
   return (
@@ -29,6 +32,15 @@ function App() {
         <Route path="/websitedevelopment" element={<Websitedevelopment />} />
         <Route path="/smm" element={<Smm />} />
         <Route path="/mobile-app" element={<Mobileapp />} />
+        <Route
+          path="/mobileappdevelopment"
+          element={<Mobileappdevelopment />}
+        />
+        <Route
+          path="/blogs/cost_to_build_a_custom_mobile_app"
+          element={<Post1 />}
+        />
+        <Route path="/blogs" element={<Blog />} />
       </Routes>
       <Footer />
     </>

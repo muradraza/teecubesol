@@ -19,6 +19,7 @@ function footer() {
           />
         </Link>
       </div>
+
       <div class="bd-highlight bg-dark text-white foot">
         <div className="foosec">
           <div className="p-2 bd-highlight footlogo foo">
@@ -78,6 +79,11 @@ function footer() {
               <li>
                 <Link class="nav-link" to="/contact">
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link class="nav-link" to="/blogs">
+                  Blogs
                 </Link>
               </li>
             </ul>

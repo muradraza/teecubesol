@@ -16,7 +16,7 @@ function Home() {
           name="description"
           content="TeeCube Solutions Ltd is a dynamic digital design agency committed to revolutionizing brand strategies and enhancing digital presence."
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://teecubesolutionsltd.com/" />
       </Helmet>
 
       <Hero />

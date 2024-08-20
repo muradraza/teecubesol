@@ -14,7 +14,10 @@ function Testimonials() {
           name="description"
           content="Read real testimonials from satisfied clients of Tee Cube Solutions Ltd. Discover how our innovative tech solutions have transformed businesses and achieved remarkable results."
         />
-        <link rel="canonical" href="/testimonials" />
+        <link
+          rel="canonical"
+          href="https://teecubesolutionsltd.com/testimonials"
+        />
       </Helmet>
       <Pagebanner name={"Testimonials"} />
 

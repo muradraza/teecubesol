@@ -1,6 +1,6 @@
 
 User-agent: *
 
-https://teecubesolutionsltd.com/sitemap.txt
+sitemap: https://teecubesolutionsltd.com/sitemap.txt
 
 Disallow: 

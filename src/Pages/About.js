@@ -15,7 +15,7 @@ function About() {
           name="description"
           content="Discover the story behind Tee Cube Solutions Ltd. Learn about our mission, values, and how we transform ideas into innovative tech solutions."
         />
-        <link rel="canonical" href="/about" />
+        <link rel="canonical" href="https://teecubesolutionsltd.com/about" />
       </Helmet>
       <Pagebanner name={"About Us"} />
 

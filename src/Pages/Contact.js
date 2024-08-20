@@ -14,7 +14,7 @@ function Contact() {
           name="description"
           content="Reach out to Tee Cube Solutions Ltd for innovative tech solutions and exceptional customer support. Contact us today to discuss your project needs."
         />
-        <link rel="canonical" href="/contact" />
+        <link rel="canonical" href="https://teecubesolutionsltd.com/contact" />
       </Helmet>
       <Pagebanner name={"Contact Us"} />
       <Contactsec />

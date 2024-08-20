@@ -14,7 +14,10 @@ function Websitedevelopment() {
           name="description"
           content="Looking for top-notch website management? TeeCube is the top website management company in USA, ensuring your online presence is always optimized and running smoothly."
         />
-        <link rel="canonical" href="/websitedevelopment" />
+        <link
+          rel="canonical"
+          href="https://teecubesolutionsltd.com/websitedevelopment"
+        />
       </Helmet>
       <Pagebanner name={"Website Development"} />
 

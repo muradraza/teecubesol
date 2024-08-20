@@ -82,7 +82,7 @@ function Howitwork() {
                   borderRadius: "50%",
                 }}
               >
-                01
+                02
               </p>
             </div>
             <div
@@ -123,7 +123,7 @@ function Howitwork() {
                   borderRadius: "50%",
                 }}
               >
-                01
+                03
               </p>
             </div>
             <div

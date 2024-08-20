@@ -35,4 +35,7 @@ h5 {
       padding: 2%;
     }
   }
+  .abtimg img {
+    height: 400px;
+  }
 }
