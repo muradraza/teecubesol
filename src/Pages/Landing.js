@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/landing.css";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -17,8 +17,16 @@ import testpic from "../assets/testi.png";
 import ban from "../assets/Section (2).png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import log from "../assets/seec.png";
+import { MdEmail } from "react-icons/md";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 function Landing() {
+  useEffect(() => {
+    Aos.init({ duration: 1200 });
+  }, []);
   return (
     <>
       <div className="heroban">
@@ -38,7 +46,7 @@ function Landing() {
       </div>
 
       <div className="header">
-        <nav className="container navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="container navbar navbar-expand-lg navbar-dark bg-dark px-4">
           <div class="container-fluid">
             <Link class="navbar-brand lg" to="/">
               <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
@@ -56,73 +64,39 @@ function Landing() {
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
                 <li class="nav-item">
                   <Link class="nav-link active" aria-current="page" to="/">
                     Home
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link active" to="/about">
+                  <Link class="nav-link active" to="">
                     About
-                  </Link>
-                </li>
-                <li class="nav-item dropdown">
-                  <Link
-                    class="nav-link dropdown-toggle active"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Services
-                  </Link>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <Link class="dropdown-item p-3" to={"/shopify"}>
-                        Shopify Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link class="dropdown-item p-3" to={"/seo"}>
-                        Seo
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        class="dropdown-item p-3"
-                        to={"/websitedevelopment"}
-                      >
-                        Website Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link class="dropdown-item p-3" to={"/mobile-app"}>
-                        Mobile App Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link class="dropdown-item p-3" to={"/smm"}>
-                        Social Media Marketing
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link active" to="/showcase">
-                    Showcase
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link active" to="/testimonials">
-                    Testimonials
                   </Link>
                 </li>
 
                 <li class="nav-item ">
-                  <Link class="nav-link active" to="/contact">
-                    Contact
+                  <Link class="nav-link active" to="">
+                    Services
+                  </Link>
+                </li>
+
+                <li class="nav-item ">
+                  <Link class="nav-link active" to="">
+                    Team
+                  </Link>
+                </li>
+
+                <li class="nav-item ">
+                  <Link class="nav-link active" to="">
+                    Project
+                  </Link>
+                </li>
+
+                <li class="nav-item ">
+                  <Link class="nav-link active" to="">
+                    Blog
                   </Link>
                 </li>
               </ul>
@@ -150,7 +124,7 @@ function Landing() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <div className="ser">
-            <div className="service1">
+            <div className="service1" data-aos="fade-left">
               <img className="serimg" src={ser6} />
               <p className="serviceheading">Lorem ipsum dolor</p>
               <p className="servicetxt">
@@ -159,7 +133,7 @@ function Landing() {
               </p>
               <FiArrowUpRight />
             </div>
-            <div className="service1">
+            <div className="service1" data-aos="fade-left">
               <img className="serimg" src={ser7} />
               <p className="serviceheading">Lorem ipsum dolor</p>
               <p className="servicetxt">
@@ -168,7 +142,7 @@ function Landing() {
               </p>
               <FiArrowUpRight />
             </div>
-            <div className="service1">
+            <div className="service1" data-aos="fade-right">
               <img className="serimg" src={ser8} />
               <p className="serviceheading">Lorem ipsum dolor</p>
               <p className="servicetxt">
@@ -177,7 +151,7 @@ function Landing() {
               </p>
               <FiArrowUpRight />
             </div>
-            <div className="service1">
+            <div className="service1" data-aos="fade-right">
               <img className="serimg" src={ser9} />
               <p className="serviceheading">Lorem ipsum dolor</p>
               <p className="servicetxt">
@@ -198,14 +172,14 @@ function Landing() {
           ligula euismod sededesty am augue nisl
         </p>
         <div className="ser">
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-in">
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
               Learn More <FiArrowUpRight />
             </p>
             <img className="serimg" src={ser1} />
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-in">
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
               Learn More
@@ -213,7 +187,7 @@ function Landing() {
             </p>
             <img className="serimg" src={ser2} />
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-in">
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
               Learn More
@@ -221,7 +195,7 @@ function Landing() {
             </p>
             <img className="serimg" src={ser3} />
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-in">
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
               Learn More
@@ -232,7 +206,7 @@ function Landing() {
         </div>
       </div>
 
-      <div className="ourservice">
+      {/* <div className="ourservice">
         <p className="sersubheading">Our services</p>
         <h4 className="serheading">Awesome Features</h4>
         <p className="servicedes">
@@ -273,7 +247,7 @@ function Landing() {
             <FiArrowUpRight />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="testbanner">
         <p className="tsubh">Testimonials</p>
@@ -297,7 +271,7 @@ function Landing() {
           ligula euismod sededesty am augue nisl
         </p>
         <div className="ser">
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-out">
             <img className="serimg" src={ser1} />
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
@@ -306,7 +280,7 @@ function Landing() {
               consequat nascetur tortor.
             </p>
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-out">
             <img className="serimg" src={ser2} />
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
@@ -315,7 +289,7 @@ function Landing() {
               consequat nascetur tortor.
             </p>
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-out">
             <img className="serimg" src={ser3} />
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
@@ -324,7 +298,7 @@ function Landing() {
               consequat nascetur tortor.
             </p>
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-out">
             <img className="serimg" src={ser4} />
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
@@ -333,7 +307,7 @@ function Landing() {
               consequat nascetur tortor.
             </p>
           </div>
-          <div className="servicebox">
+          <div className="servicebox" data-aos="zoom-out">
             <img className="serimg" src={ser5} />
             <p className="serviceheading">Lorem ipsum dolor</p>
             <p className="servicetxt">
@@ -373,29 +347,29 @@ function Landing() {
           </div>
           <div className="fcd">
             <div className="ftxt">Phone Number</div>
-            <div className="fp">000</div>
+            <div className="fp">(727) 777 4160</div>
           </div>
         </div>
         <div className="fcontact">
           <div className="ficon">
             <div className="fi">
-              <FaPhoneAlt />
+              <MdEmail />
             </div>
           </div>
           <div className="fcd">
-            <div className="ftxt">Phone Number</div>
-            <div className="fp">000</div>
+            <div className="ftxt">Email Us Here</div>
+            <div className="fp">info@tcube.com</div>
           </div>
         </div>
         <div className="fcontact">
           <div className="ficon">
             <div className="fi">
-              <FaPhoneAlt />
+              <FaMapMarkerAlt />
             </div>
           </div>
           <div className="fcd">
-            <div className="ftxt">Phone Number</div>
-            <div className="fp">000</div>
+            <div className="ftxt">Office Address</div>
+            <div className="fp">251 Hilton, Berlin DE</div>
           </div>
         </div>
       </div>

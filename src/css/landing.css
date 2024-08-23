@@ -140,7 +140,7 @@
   }
 }
 
-.ourservice {
+/* .ourservice {
   width: 90%;
   padding: 30px 0;
   margin: auto;
@@ -180,7 +180,7 @@
       }
     }
   }
-}
+} */
 
 .tservice {
   width: 80%;
@@ -322,6 +322,7 @@
         gap: 10px;
         margin-bottom: 20px;
         width: 20%;
+        box-shadow: 2px 2px 10px rgb(249, 249, 249);
         padding: 20px;
         border-radius: 12px;
         background-color: #fff;
@@ -389,8 +390,8 @@
 .header {
   content: "";
   position: absolute;
-  top: 11px;
-  left: 340px;
+  top: 20px;
+  left: 280px;
   z-index: 9;
   .container {
     border-radius: 12px;
