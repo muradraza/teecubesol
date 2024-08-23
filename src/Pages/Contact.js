@@ -2,6 +2,8 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import Contactsec from "../Components/Contactsec";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Contact() {
   return (
@@ -16,8 +18,12 @@ function Contact() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/contact" />
       </Helmet>
+
+      <Nav />
+
       <Pagebanner name={"Contact Us"} />
       <Contactsec />
+      <Footer />
     </>
   );
 }

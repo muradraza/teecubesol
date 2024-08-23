@@ -3,6 +3,8 @@ import Pagebanner from "../Components/Pagebanner";
 import "../css/seo.css";
 import Counter from "../Components/Counter";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Seo() {
   return (
@@ -15,7 +17,7 @@ function Seo() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/seo" />
       </Helmet>
-
+      <Nav />
       <Pagebanner name={"Search Engine Optimization"} />
 
       <div className="aproch">
@@ -194,6 +196,7 @@ function Seo() {
       </div>
       {/* <!-- Gallery --> */}
       <Counter />
+      <Footer />
     </>
   );
 }

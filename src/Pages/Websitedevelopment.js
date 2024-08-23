@@ -2,6 +2,8 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import Counter from "../Components/Counter";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Websitedevelopment() {
   return (
@@ -19,6 +21,7 @@ function Websitedevelopment() {
           href="https://teecubesolutionsltd.com/websitedevelopment"
         />
       </Helmet>
+      <Nav />
       <Pagebanner name={"Website Development"} />
 
       <div
@@ -375,6 +378,7 @@ function Websitedevelopment() {
       {/* <!-- Gallery --> */}
 
       <Counter />
+      <Footer />
     </>
   );
 }

@@ -2,6 +2,8 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import { Helmet } from "react-helmet";
 import Counter from "../Components/Counter";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Smm() {
   return (
@@ -14,9 +16,8 @@ function Smm() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/smm" />
       </Helmet>
-
+      <Nav />
       <Pagebanner name={"Social Media Marketing"} />
-
       <div className="aproch">
         <div className="approchdetails">
           <h3>
@@ -51,7 +52,6 @@ function Smm() {
           <img src="/seo.png" alt="..." />
         </div>
       </div>
-
       <div className="ser">
         <h3 className="text-center fs-1">
           We’ve Got a Proven Formula to Guarantee Results with Social Media
@@ -142,7 +142,6 @@ function Smm() {
           </div>
         </div>
       </div>
-
       {/* <!-- Gallery --> */}
       <div
         class="row"
@@ -191,8 +190,7 @@ function Smm() {
         </div>
       </div>
       {/* <!-- Gallery --> */}
-
-      <Counter />
+      <Counter /> <Footer />
     </>
   );
 }

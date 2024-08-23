@@ -2,10 +2,13 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import { Link } from "react-router-dom";
 import img1 from "../assets/1.png";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Blog() {
   return (
     <>
+      <Nav />
       <Pagebanner name={"Blogs"} />
 
       <div style={{ padding: "50px" }}>
@@ -37,6 +40,7 @@ function Blog() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

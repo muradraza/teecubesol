@@ -2,6 +2,8 @@ import React from "react";
 import "../css/testimonials.css";
 import Pagebanner from "../Components/Pagebanner";
 import { Helmet } from "react-helmet";
+import Footer from ".././Components/Footer";
+import Nav from "../Components/Nav";
 
 function Testimonials() {
   return (
@@ -19,6 +21,7 @@ function Testimonials() {
           href="https://teecubesolutionsltd.com/testimonials"
         />
       </Helmet>
+      <Nav />
       <Pagebanner name={"Testimonials"} />
 
       <div className="ttestimonial">
@@ -129,6 +132,7 @@ function Testimonials() {
           <p className="comittitle">Team Blinds </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

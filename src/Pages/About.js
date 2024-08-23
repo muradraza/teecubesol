@@ -3,6 +3,8 @@ import Pagebanner from "../Components/Pagebanner";
 import "../css/about.css";
 import Howitwork from "../Components/Howitwork";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function About() {
   return (
@@ -17,6 +19,7 @@ function About() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/about" />
       </Helmet>
+      <Nav />
       <Pagebanner name={"About Us"} />
 
       <div className="about">
@@ -195,6 +198,7 @@ function About() {
         </div>
       </div>
       <Howitwork />
+      <Footer />
     </>
   );
 }

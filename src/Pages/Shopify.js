@@ -3,6 +3,8 @@ import Pagebanner from "../Components/Pagebanner";
 import Pricing from "../Components/Pricing";
 import "../css/shopi.css";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Shopify() {
   return (
@@ -17,7 +19,7 @@ function Shopify() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/shopify" />
       </Helmet>
-
+      <Nav />
       <Pagebanner name={"Shopify Development"} />
 
       <div className="aproch" style={{ display: "flex", alignItems: "center" }}>
@@ -322,6 +324,7 @@ function Shopify() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

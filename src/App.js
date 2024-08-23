@@ -2,8 +2,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 import Testimonials from "./Pages/Testimonials";
 import Showcase from "./Pages/Showcase";
@@ -16,11 +14,11 @@ import Mobileapp from "./Pages/Mobileapp";
 import Mobileappdevelopment from "./Pages/Mobileappdevelopment";
 import Post1 from "./Pages/Blogs/Post1";
 import Blog from "./Pages/Blog";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
     <>
-      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -41,8 +39,8 @@ function App() {
           element={<Post1 />}
         />
         <Route path="/blogs" element={<Blog />} />
+        <Route path="/costum_web_development" element={<Landing />} />
       </Routes>
-      <Footer />
     </>
   );
 }

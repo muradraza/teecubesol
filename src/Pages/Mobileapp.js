@@ -2,6 +2,8 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import Pagebanner from "../Components/Pagebanner";
 import Counter from "../Components/Counter";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Mobileapp() {
   return (
@@ -19,6 +21,9 @@ function Mobileapp() {
           href="https://teecubesolutionsltd.com/mobile-app"
         />
       </Helmet>
+
+      <Nav />
+
       <Pagebanner name={"Mobile App Development"} />
 
       <div className="aproch">
@@ -190,6 +195,7 @@ function Mobileapp() {
       </div>
       {/* <!-- Gallery --> */}
       <Counter />
+      <Footer />
     </>
   );
 }

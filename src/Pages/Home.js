@@ -6,6 +6,8 @@ import Approch from "../Components/Approch";
 import Showcases from "../Components/Showcases";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Home() {
   return (
@@ -18,6 +20,8 @@ function Home() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/" />
       </Helmet>
+
+      <Nav />
 
       <Hero />
       <Servicesgrid />
@@ -69,6 +73,7 @@ function Home() {
         </h3>
       </div>
       <Showcases />
+      <Footer />
     </>
   );
 }

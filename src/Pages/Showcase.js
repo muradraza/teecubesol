@@ -2,6 +2,8 @@ import React from "react";
 import Pagebanner from "../Components/Pagebanner";
 import Showcases from "../Components/Showcases";
 import { Helmet } from "react-helmet";
+import Nav from "../Components/Nav";
+import Footer from ".././Components/Footer";
 
 function Showcase() {
   return (
@@ -14,8 +16,10 @@ function Showcase() {
         />
         <link rel="canonical" href="https://teecubesolutionsltd.com/showcase" />
       </Helmet>
+      <Nav />
       <Pagebanner name={"Show Case"} />
       <Showcases />
+      <Footer />
     </>
   );
 }
