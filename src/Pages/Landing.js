@@ -47,60 +47,12 @@ function Landing() {
 
       <div className="header">
         <nav className="container navbar navbar-expand-lg navbar-dark bg-dark px-4">
-          <div class="container-fluid">
+          <div class=" im container-fluid">
             <Link class="navbar-brand lg" to="/">
               <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
             </Link>
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
-                <li class="nav-item">
-                  <Link class="nav-link active" aria-current="page" to="/">
-                    Home
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link active" to="">
-                    About
-                  </Link>
-                </li>
-
-                <li class="nav-item ">
-                  <Link class="nav-link active" to="">
-                    Services
-                  </Link>
-                </li>
-
-                <li class="nav-item ">
-                  <Link class="nav-link active" to="">
-                    Team
-                  </Link>
-                </li>
-
-                <li class="nav-item ">
-                  <Link class="nav-link active" to="">
-                    Project
-                  </Link>
-                </li>
-
-                <li class="nav-item ">
-                  <Link class="nav-link active" to="">
-                    Blog
-                  </Link>
-                </li>
-              </ul>
-
+            <div>
               <button
                 type="button"
                 class="btn btn-primary rounded-pill navbtn py-2 px-4"
@@ -327,10 +279,7 @@ function Landing() {
           Lorem ipsum dolor sit amet consectetur. Ullamcorper risus quam quam
           elementum non hac vulputate in. Sit netus non neque nulla quis.
           Lobortis at gravida commodo id. Ullamcorper sed cras eleifend egestas
-          aliquet. Quis fermentum eu adipiscing maecenas aliquet gravida. Non
-          egestas neque egestas proin nisl feugiat. Dignissim ac ultrices varius
-          malesuada fringilla at nunc ullamcorper. Tortor curabitur odio
-          praesent in in felis. Posuere nullam diam morbi ut dictumst.
+          aliquet. Quis fermentum eu adipiscing maecenas aliquet gravida.
         </p>
         <p>Lorem ipsum dolor sit amet consectetur.</p>
       </div>

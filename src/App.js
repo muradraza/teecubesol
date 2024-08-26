@@ -39,7 +39,7 @@ function App() {
           element={<Post1 />}
         />
         <Route path="/blogs" element={<Blog />} />
-        <Route path="/costum_web_development" element={<Landing />} />
+        <Route path="/custom_web_development" element={<Landing />} />
       </Routes>
     </>
   );
