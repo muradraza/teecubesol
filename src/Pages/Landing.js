@@ -14,7 +14,7 @@ import ser7 from "../assets/Overlay-2.png";
 import ser8 from "../assets/Overlay-3.png";
 import ser9 from "../assets/Overlay.png";
 import testpic from "../assets/testi.png";
-import ban from "../assets/Section (2).png";
+import ban from "../assets/landing_hero.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import log from "../assets/seec.png";
 import { MdEmail } from "react-icons/md";
