@@ -248,7 +248,7 @@
   font-style: normal;
 }
 .hero {
-  background-image: url("../public/hero2.webp");
+  background-image: url("./assets/banner.webp");
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -353,13 +353,13 @@
 }
 
 .web {
-  background-image: url("../public/web.jpg");
+  background-image: url("./assets/web.webp");
   background-size: cover;
 
   /* transition: ease-in-out; */
 }
 .market {
-  background-image: url("../public/marketing.png");
+  background-image: url("./assets/marketing.webp");
   background-size: cover;
 }
 .it {
@@ -367,7 +367,7 @@
   background-size: cover;
 }
 .shop {
-  background-image: url("../public/shops.jpg");
+  background-image: url("./assets/shops.webp");
   background-size: cover;
 }
 
@@ -566,7 +566,7 @@
   /* hero sec */
 
   .hero {
-    background-image: url("../public/hero2.webp");
+    background-image: url("./assets/banner.webp");
     width: 100%;
     height: 280px;
     background-size: cover;
