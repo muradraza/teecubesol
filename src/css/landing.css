@@ -359,6 +359,37 @@
   content: "";
   position: absolute;
   width: 100%;
+  top: 20px;
+  z-index: 9;
+  display: flex;
+  justify-content: space-around;
+  .container {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    width: 98%;
+    .im {
+      width: 55%;
+      img {
+        width: 100%;
+      }
+    }
+    .landbtn {
+      width: 45%;
+      align-items: end;
+      display: flex;
+      justify-content: end;
+      button {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* .header {
+  content: "";
+  position: absolute;
+  width: 100%;
   display: flex;
   justify-content: end;
   top: 20px;
@@ -369,16 +400,46 @@
     display: flex;
     justify-content: space-around;
   }
-}
+} */
 
 @media (max-width: 480px) {
+  .header {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-around;
+    .container {
+      display: flex;
+      justify-content: center;
+      border-radius: 12px;
+      width: 98%;
+      .im {
+        width: 55%;
+        img {
+          width: 100%;
+        }
+      }
+      .landbtn {
+        width: 45%;
+        button {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
   .heroban {
     display: flex;
-    padding: 210px 0 0 0;
-    margin-top: -250px;
     flex-wrap: wrap;
     .herotxt {
       width: 100%;
+      h2 {
+        padding-top: 120px;
+        font-size: 38px;
+      }
     }
     .heroimg {
       width: 100%;

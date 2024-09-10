@@ -58,22 +58,21 @@ function Landing() {
 
       <div className="header">
         <nav className="container navbar navbar-expand-lg navbar-dark bg-dark px-4">
-          <div class=" im container-fluid">
+          <div class="im container-fluid">
             <Link class="navbar-brand lg" to="/">
               <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
             </Link>
-
-            <div className="landbtn">
-              <button
-                type="button"
-                class="btn btn-primary rounded-pill navbtn py-2 px-4"
-              >
-                <Link className="tel" to="tel: 7277774610)">
-                  <FontAwesomeIcon icon="fa-solid fa-phone" />
-                  (727) 777 4610
-                </Link>
-              </button>
-            </div>
+          </div>
+          <div className="landbtn">
+            <button
+              type="button"
+              class="btn btn-primary rounded-pill navbtn py-2 px-4"
+            >
+              <Link className="tel" to="tel: 7277774610)">
+                <FontAwesomeIcon icon="fa-solid fa-phone" />
+                (727) 777 4610
+              </Link>
+            </button>
           </div>
         </nav>
       </div>
