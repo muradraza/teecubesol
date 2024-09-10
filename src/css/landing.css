@@ -76,7 +76,7 @@
     align-items: center !important;
     gap: 10px;
     .fii {
-      display: flex;
+      display: flex !important;
       justify-content: center;
       align-items: center;
       background-color: #fff;
