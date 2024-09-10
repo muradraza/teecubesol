@@ -32,7 +32,7 @@ function Blog() {
               part of our daily lives?...
             </p>
             <Link
-              to="/blogs/cost_to_build_a_custom_mobile_app"
+              to="/blogs/cost-to-build-a-custom-mobile-app"
               class="btn btn-primary"
             >
               Read More

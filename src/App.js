@@ -15,6 +15,7 @@ import Mobileappdevelopment from "./Pages/Mobileappdevelopment";
 import Post1 from "./Pages/Blogs/Post1";
 import Blog from "./Pages/Blog";
 import Landing from "./Pages/Landing";
+import NotFound from "./Components/NotFound";
 
 function App() {
   return (
@@ -35,11 +36,12 @@ function App() {
           element={<Mobileappdevelopment />}
         />
         <Route
-          path="/blogs/cost_to_build_a_custom_mobile_app"
+          path="/blogs/cost-to-build-a-custom-mobile-app"
           element={<Post1 />}
         />
         <Route path="/blogs" element={<Blog />} />
-        <Route path="/custom_web_development" element={<Landing />} />
+        <Route path="/custom-web-development" element={<Landing />} />
+        <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
       </Routes>
     </>
   );

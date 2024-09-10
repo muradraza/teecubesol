@@ -4,6 +4,8 @@ import { Helmet } from "react-helmet";
 import img2 from "../../assets/2.png";
 import img3 from "../../assets/3.png";
 import { Link } from "react-router-dom";
+import Nav from "../../Components/Nav";
+import Footer from "../../Components/Footer";
 
 function Post1() {
   return (
@@ -19,6 +21,7 @@ function Post1() {
 "
         />
       </Helmet>
+      <Nav />
       <Pagebanner name={"Cost to Build a Custom Mobile App"} />
 
       <div className="postpagetop">
@@ -251,6 +254,7 @@ function Post1() {
           and set clear project goals.
         </p>
       </div>
+      <Footer />
     </>
   );
 }

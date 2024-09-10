@@ -65,14 +65,14 @@ function Nav() {
                         Website Development
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         class="dropdown-item p-3"
-                        to={"/custom_web_development"}
+                        to={"/custom-web-development"}
                       >
                         Custom Website Development
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link class="dropdown-item p-3" to={"/mobile-app"}>
                         Mobile App Development

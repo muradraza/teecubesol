@@ -19,9 +19,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import log from "../assets/seec.png";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
-
+import cwd from "../assets/cwd.jpg";
 import "aos/dist/aos.css";
 import Aos from "aos";
+import { Helmet } from "react-helmet";
 
 function Landing() {
   useEffect(() => {
@@ -29,14 +30,24 @@ function Landing() {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>Custom Web Development Services | Tee Cube Solutions Ltd</title>
+        <meta
+          name="description"
+          content="Unlock the full potential of your business with Tee Cube Solutions Ltd's custom web development services. We create responsive, SEO-friendly websites tailored to your unique needs. Transform your online presence today!"
+        />
+        <link
+          rel="canonical"
+          href="https://teecubesolutionsltd.com/custom-web-development"
+        />
+      </Helmet>
       <div className="heroban">
         <div className="herotxt">
-          <p className="shead">Lorem ipsum dolor sit</p>
-          <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+          <h2>Making Your Digital Dream a Reality!</h2>
           <p className="hdes">
-            Lorem ipsum dolor sit amet consectetur. Sit venenatis aliquet
-            volutpat in adipiscing sodales montes. Lectus arcu non cras vitae
-            congue vel felis orci.
+            We’re here to bring your ideas to life with our app and web design
+            and development services. Whether you need a new website or an app,
+            we’re ready to help you create something special.
           </p>
           <button>Get a Quote</button>
         </div>
@@ -70,45 +81,49 @@ function Landing() {
       <div className="ms">
         <img className="clilogo" src={log} />
         <div className="service">
-          <p className="sersubheading">Our services</p>
-          <h4 className="serheading">Awesome Features</h4>
-          <p className="servicedes">
+          {/* <p className="sersubheading">Our services</p> */}
+          <h4 className="serheading">Our services</h4>
+          {/* <p className="servicedes">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+          </p> */}
           <div className="ser">
             <div className="service1" data-aos="fade-left">
               <img className="serimg" src={ser6} />
-              <p className="serviceheading">Lorem ipsum dolor</p>
+              <p className="serviceheading">Custom App Development</p>
               <p className="servicetxt">
-                Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-                consequat sit.
+                We create apps that are easy to use and full of the features you
+                need. Whether you need an app for Android, iOS, or both, we make
+                sure it meets your business needs.
               </p>
               <FiArrowUpRight />
             </div>
             <div className="service1" data-aos="fade-left">
               <img className="serimg" src={ser7} />
-              <p className="serviceheading">Lorem ipsum dolor</p>
+              <p className="serviceheading">Web Design and Development</p>
               <p className="servicetxt">
-                Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-                consequat sit.
+                We design websites that look great and work smoothly. Your
+                website will be built to impress visitors and keep them coming
+                back.
               </p>
               <FiArrowUpRight />
             </div>
             <div className="service1" data-aos="fade-right">
               <img className="serimg" src={ser8} />
-              <p className="serviceheading">Lorem ipsum dolor</p>
+              <p className="serviceheading">E-commerce Solutions</p>
               <p className="servicetxt">
-                Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-                consequat sit.
+                We build online stores that are secure and simple to manage.
+                With our help, selling your products online becomes
+                straightforward and effective.
               </p>
               <FiArrowUpRight />
             </div>
             <div className="service1" data-aos="fade-right">
               <img className="serimg" src={ser9} />
-              <p className="serviceheading">Lorem ipsum dolor</p>
+              <p className="serviceheading">maintenance and Support</p>
               <p className="servicetxt">
-                Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-                consequat sit.
+                After your app or website is live, we’re here to keep everything
+                running smoothly. Our team is always ready to assist with
+                updates, fixes, and improvements.
               </p>
               <FiArrowUpRight />
             </div>
@@ -117,41 +132,44 @@ function Landing() {
       </div>
 
       <div className="tservice">
-        <p className="sersubheading">Our services</p>
-        <h4 className="serheading">Awesome Features</h4>
-        <p className="servicedes">
+        {/* <p className="sersubheading">Our Process</p> */}
+        <h4 className="serheading">Our Process</h4>
+        {/* <p className="servicedes">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi obortis
           ligula euismod sededesty am augue nisl
-        </p>
+        </p> */}
         <div className="ser">
           <div className="servicebox" data-aos="zoom-in">
-            <p className="serviceheading">Lorem ipsum dolor</p>
+            <p className="serviceheading">Consultation</p>
             <p className="servicetxt">
-              Learn More <FiArrowUpRight />
+              We begin by getting to know your business goals, target audience,
+              and specific needs. This helps us create a solution that fits
+              perfectly.
             </p>
             <img className="serimg" src={ser1} />
           </div>
           <div className="servicebox" data-aos="zoom-in">
-            <p className="serviceheading">Lorem ipsum dolor</p>
+            <p className="serviceheading">Design</p>
             <p className="servicetxt">
-              Learn More
-              <FiArrowUpRight />
+              Our creative team designs a prototype, focusing on how it looks
+              and feels for the user. We make sure the design reflects your
+              vision.
             </p>
             <img className="serimg" src={ser2} />
           </div>
           <div className="servicebox" data-aos="zoom-in">
-            <p className="serviceheading">Lorem ipsum dolor</p>
+            <p className="serviceheading">Development</p>
             <p className="servicetxt">
-              Learn More
-              <FiArrowUpRight />
+              Once the design is approved, we move on to building your app or
+              website. We ensure everything works smoothly and efficiently.
             </p>
             <img className="serimg" src={ser3} />
           </div>
           <div className="servicebox" data-aos="zoom-in">
-            <p className="serviceheading">Lorem ipsum dolor</p>
+            <p className="serviceheading">Launch & Support</p>
             <p className="servicetxt">
-              Learn More
-              <FiArrowUpRight />
+              After testing and fine-tuning, we launch your project. We also
+              provide ongoing support to keep everything running as it should.
             </p>
             <img className="serimg" src={ser4} />
           </div>
@@ -205,83 +223,162 @@ function Landing() {
         <p className="tsubh">Testimonials</p>
         <h4 className="thead">People talk about us</h4>
         <img src={testpic} alt="..." />
-        <p className="tsubj">“Elit penatibus curae aucto”</p>
+        {/* <p className="tsubj">“Elit penatibus curae aucto”</p> */}
         <p className="tcontent">
-          Sem a penatibus varius dui nostra vehicula gravida congue, potenti
-          etiam erat justo faucibus fusce quis nulla eu, dignissim eget posuere
-          blandit curabitur porta inceptos. Inceptos faucibus fringilla pharetra
-          mi suscipit curabitu
+          TeeCube Solutions turned my idea into a beautiful app. Their team was
+          easy to work with and delivered exactly what I wanted. Would highly
+          recommend!
         </p>
         <p className="tname">Andrew Smith</p>
       </div>
 
       <div className="service">
-        <p className="sersubheading">Our services</p>
-        <h4 className="serheading">Awesome Features</h4>
-        <p className="servicedes">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi obortis
-          ligula euismod sededesty am augue nisl
-        </p>
-        <div className="ser">
-          <div className="servicebox" data-aos="zoom-out">
-            <img className="serimg" src={ser1} />
-            <p className="serviceheading">Lorem ipsum dolor</p>
-            <p className="servicetxt">
-              Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-              consequat sit. Adipiscing mollis sed eu enim. Massa neque sit
-              consequat nascetur tortor.
-            </p>
-          </div>
-          <div className="servicebox" data-aos="zoom-out">
-            <img className="serimg" src={ser2} />
-            <p className="serviceheading">Lorem ipsum dolor</p>
-            <p className="servicetxt">
-              Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-              consequat sit. Adipiscing mollis sed eu enim. Massa neque sit
-              consequat nascetur tortor.
-            </p>
-          </div>
-          <div className="servicebox" data-aos="zoom-out">
-            <img className="serimg" src={ser3} />
-            <p className="serviceheading">Lorem ipsum dolor</p>
-            <p className="servicetxt">
-              Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-              consequat sit. Adipiscing mollis sed eu enim. Massa neque sit
-              consequat nascetur tortor.
-            </p>
-          </div>
-          <div className="servicebox" data-aos="zoom-out">
-            <img className="serimg" src={ser4} />
-            <p className="serviceheading">Lorem ipsum dolor</p>
-            <p className="servicetxt">
-              Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-              consequat sit. Adipiscing mollis sed eu enim. Massa neque sit
-              consequat nascetur tortor.
-            </p>
-          </div>
-          <div className="servicebox" data-aos="zoom-out">
-            <img className="serimg" src={ser5} />
-            <p className="serviceheading">Lorem ipsum dolor</p>
-            <p className="servicetxt">
-              Lorem ipsum dolor sit amet consectetur. Ut vitae accumsan
-              consequat sit. Adipiscing mollis sed eu enim. Massa neque sit
-              consequat nascetur tortor.
-            </p>
+        <p className="sersubheading">FAQs</p>
+        <h4 className="serheading">Frequently Asked Question</h4>
+
+        <div className="aproch faq1">
+          <div className="approchdetails">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What services do you offer?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    We offer design and development services for apps and
+                    websites, as well as maintenance and support.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How long does it take to build a website or app?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    The timeline depends on the project’s complexity, but we
+                    always aim to deliver on time.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Do you offer ongoing support after the launch?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, we provide maintenance and support to keep your app or
+                    website running smoothly.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Can you help with redesigning an existing website or app?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Absolutely! We can redesign your site or app to make it look
+                    fresh and work better.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What industries do you work with?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    We work with a variety of industries, from retail to
+                    healthcare and beyond.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Call To Action */}
 
-      <div className="cta">
-        <h3>Lorem ipsum dolor sit</h3>
+      <div className="ctaa">
+        <h3>Ready To Get Started? </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Ullamcorper risus quam quam
-          elementum non hac vulputate in. Sit netus non neque nulla quis.
-          Lobortis at gravida commodo id. Ullamcorper sed cras eleifend egestas
-          aliquet. Quis fermentum eu adipiscing maecenas aliquet gravida.
+          Ready to start your project? Get in touch with TeeCube Solutions
+          today. We’ve helped many companies create websites and apps that drive
+          success. Let’s work together to bring your ideas to life! So what are
+          you waiting for?
         </p>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
       </div>
 
       {/* Call To Action */}
@@ -290,7 +387,7 @@ function Landing() {
         <div className="footlogo">T CUBE</div>
         <div className="fcontact">
           <div className="ficon">
-            <div className="fi">
+            <div className="fii">
               <FaPhoneAlt />
             </div>
           </div>
@@ -301,7 +398,7 @@ function Landing() {
         </div>
         <div className="fcontact">
           <div className="ficon">
-            <div className="fi">
+            <div className="fii">
               <MdEmail />
             </div>
           </div>
@@ -312,7 +409,7 @@ function Landing() {
         </div>
         <div className="fcontact">
           <div className="ficon">
-            <div className="fi">
+            <div className="fii">
               <FaMapMarkerAlt />
             </div>
           </div>
@@ -328,12 +425,13 @@ function Landing() {
             <h4>About Company</h4>
             <hr />
             <p>
-              Lorem ipsum dolor sit amet consectetur. Quis eros nibh maecenas
-              habitasse ultricies semper a.
+              At TeeCube Solutions Ltd, we provide innovative software designed
+              to drive your business forward. Our team of experts crafts
+              customized solutions that enhance efficiency and performance.
             </p>
           </div>
           <div className="lfoot">
-            <h4>About Company</h4>
+            <h4>Quick Links</h4>
             <hr />
             <li>
               <IoMdArrowRoundForward />
@@ -371,7 +469,7 @@ function Landing() {
               </Link>
             </li>
           </div>
-          <div className="lfoot">
+          {/* <div className="lfoot">
             <h4>About Company</h4>
             <hr />
             <li>
@@ -409,13 +507,26 @@ function Landing() {
                 Contact Us
               </Link>
             </li>
-          </div>
+          </div> */}
           <div className="lfoot">
-            <h4>About Company</h4>
+            <h4>Get in Touch</h4>
             <hr />
+            <p>11150 N. Williams St Dunnellon, FL 34432</p>
+            <p>36 Grenada Crescent, M1B 2H5, Toronto, Canada</p>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Quis eros nibh maecenas
-              habitasse ultricies semper a.
+              <Link className="Link" to="mailto:info@teecubesolutionsltd.com">
+                info@teecubesolutionsltd.com
+              </Link>
+            </p>
+            <p>
+              <Link className="Link" to="tel:7277774610">
+                (727) 777-4610 - US
+              </Link>
+            </p>
+            <p>
+              <Link className="Link" to="tel: 4374193255">
+                (437) 419-3255 - CA
+              </Link>
             </p>
           </div>
         </div>
