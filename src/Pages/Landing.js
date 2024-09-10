@@ -19,7 +19,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import log from "../assets/seec.png";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import cwd from "../assets/cwd.jpg";
+
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { Helmet } from "react-helmet";
@@ -63,7 +63,7 @@ function Landing() {
               <img src="/tcubelogo.png" alt="" width="200px" height="70px" />
             </Link>
 
-            <div>
+            <div className="landbtn">
               <button
                 type="button"
                 class="btn btn-primary rounded-pill navbtn py-2 px-4"
@@ -80,66 +80,59 @@ function Landing() {
 
       <div className="ms">
         <img className="clilogo" src={log} />
-        <div className="service">
-          {/* <p className="sersubheading">Our services</p> */}
-          <h4 className="serheading">Our services</h4>
-          {/* <p className="servicedes">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p> */}
-          <div className="ser">
-            <div className="service1" data-aos="fade-left">
-              <img className="serimg" src={ser6} />
-              <p className="serviceheading">Custom App Development</p>
-              <p className="servicetxt">
-                We create apps that are easy to use and full of the features you
-                need. Whether you need an app for Android, iOS, or both, we make
-                sure it meets your business needs.
-              </p>
-              <FiArrowUpRight />
-            </div>
-            <div className="service1" data-aos="fade-left">
-              <img className="serimg" src={ser7} />
-              <p className="serviceheading">Web Design and Development</p>
-              <p className="servicetxt">
-                We design websites that look great and work smoothly. Your
-                website will be built to impress visitors and keep them coming
-                back.
-              </p>
-              <FiArrowUpRight />
-            </div>
-            <div className="service1" data-aos="fade-right">
-              <img className="serimg" src={ser8} />
-              <p className="serviceheading">E-commerce Solutions</p>
-              <p className="servicetxt">
-                We build online stores that are secure and simple to manage.
-                With our help, selling your products online becomes
-                straightforward and effective.
-              </p>
-              <FiArrowUpRight />
-            </div>
-            <div className="service1" data-aos="fade-right">
-              <img className="serimg" src={ser9} />
-              <p className="serviceheading">maintenance and Support</p>
-              <p className="servicetxt">
-                After your app or website is live, we’re here to keep everything
-                running smoothly. Our team is always ready to assist with
-                updates, fixes, and improvements.
-              </p>
-              <FiArrowUpRight />
-            </div>
+      </div>
+
+      <div className="service">
+        <h4 className="serheading">Our services</h4>
+
+        <div className="ser">
+          <div className="service1" data-aos="fade-left">
+            <img className="serimg" src={ser6} />
+            <p className="serviceheading">Custom App Development</p>
+            <p className="servicetxt">
+              We create apps that are easy to use and full of the features you
+              need. Whether you need an app for Android, iOS, or both, we make
+              sure it meets your business needs.
+            </p>
+            <FiArrowUpRight />
+          </div>
+          <div className="service1" data-aos="fade-left">
+            <img className="serimg" src={ser7} />
+            <p className="serviceheading">Web Design and Development</p>
+            <p className="servicetxt">
+              We design websites that look great and work smoothly. Your website
+              will be built to impress visitors and keep them coming back.
+            </p>
+            <FiArrowUpRight />
+          </div>
+          <div className="service1" data-aos="fade-right">
+            <img className="serimg" src={ser8} />
+            <p className="serviceheading">E-commerce Solutions</p>
+            <p className="servicetxt">
+              We build online stores that are secure and simple to manage. With
+              our help, selling your products online becomes straightforward and
+              effective.
+            </p>
+            <FiArrowUpRight />
+          </div>
+          <div className="service1" data-aos="fade-right">
+            <img className="serimg" src={ser9} />
+            <p className="serviceheading">Maintenance and Support</p>
+            <p className="servicetxt">
+              After your app or website is live, we’re here to keep everything
+              running smoothly. Our team is always ready to assist with updates,
+              fixes, and improvements.
+            </p>
+            <FiArrowUpRight />
           </div>
         </div>
       </div>
 
       <div className="tservice">
-        {/* <p className="sersubheading">Our Process</p> */}
         <h4 className="serheading">Our Process</h4>
-        {/* <p className="servicedes">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi obortis
-          ligula euismod sededesty am augue nisl
-        </p> */}
+
         <div className="ser">
-          <div className="servicebox" data-aos="zoom-in">
+          <div className="servicebox" data-aos="fade-right">
             <p className="serviceheading">Consultation</p>
             <p className="servicetxt">
               We begin by getting to know your business goals, target audience,
@@ -148,7 +141,7 @@ function Landing() {
             </p>
             <img className="serimg" src={ser1} />
           </div>
-          <div className="servicebox" data-aos="zoom-in">
+          <div className="servicebox" data-aos="fade-right">
             <p className="serviceheading">Design</p>
             <p className="servicetxt">
               Our creative team designs a prototype, focusing on how it looks
@@ -157,7 +150,7 @@ function Landing() {
             </p>
             <img className="serimg" src={ser2} />
           </div>
-          <div className="servicebox" data-aos="zoom-in">
+          <div className="servicebox" data-aos="fade-left">
             <p className="serviceheading">Development</p>
             <p className="servicetxt">
               Once the design is approved, we move on to building your app or
@@ -165,7 +158,7 @@ function Landing() {
             </p>
             <img className="serimg" src={ser3} />
           </div>
-          <div className="servicebox" data-aos="zoom-in">
+          <div className="servicebox" data-aos="fade-left">
             <p className="serviceheading">Launch & Support</p>
             <p className="servicetxt">
               After testing and fine-tuning, we launch your project. We also
