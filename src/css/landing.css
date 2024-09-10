@@ -280,7 +280,7 @@
   }
   .ser {
     width: 90%;
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: space-evenly;
     .servicebox {
