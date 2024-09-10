@@ -11,17 +11,19 @@ function Servicesgrid() {
       <p className="text-center p-0 subtitle">Our Services</p>
       <h3 className="text-center fs-1">What we do</h3>
 
+      {/* data-aos="fade-left */}
+
       <div className="sergrd">
-        <div className="services web" id="overlay" data-aos="fade-left">
+        <div className="services web" id="overlay">
           <h5>Website Development</h5>
         </div>
-        <div className="services market" data-aos="fade-left">
+        <div className="services market">
           <h5>Digital Marketing</h5>
         </div>
-        <div className="services it" data-aos="fade-right">
+        <div className="services it">
           <h5>SEO</h5>
         </div>
-        <div className="services text-warp shop" data-aos="fade-right">
+        <div className="services text-warp shop">
           <h5>Shopify Dropshipping Solutions</h5>
         </div>
       </div>
